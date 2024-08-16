@@ -6,7 +6,7 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "No Âmbito social, voce prefere:",
+        enunciado: "No Âmbito Social, você prefere:",
         alternativas: [
             {
               texto: "Você apertaria o botão se ele garantisse que todas as pessoas no mundo teriam suas necessidades básicas atendidas (alimentação, saúde, educação)",
@@ -20,7 +20,7 @@ const perguntas = [
     },
 
     {
-        enunciado: "No Âmbito tecnologico, voce prefere:",
+        enunciado: "No Âmbito Tecnológico, você prefere:",
         alternativas: [
             {
               texto: "Você apertaria o botão se ele garantisse a eliminação de todas as falhas de segurança cibernética e ataques hackers em todo o mundo",
@@ -34,7 +34,7 @@ const perguntas = [
     },
 
 {
-        enunciado: "No Âmbito ambiental, voce prefere:",
+        enunciado: "No Âmbito Ambiental, você prefere:",
         alternativas: [
             {
               texto: "Você apertaria o botão se ele garantisse a eliminação total da poluição do ar e da água em todo o mundo",
