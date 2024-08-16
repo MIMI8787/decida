@@ -6,47 +6,44 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "No Âmbito Social, você prefere:",
+        enunciado: "No âmbito social, você prefere:",
         alternativas: [
             {
-              texto: "Você apertaria o botão se ele garantisse que todas as pessoas no mundo teriam suas necessidades básicas atendidas (alimentação, saúde, educação)",
-              afirmação:"mas, em troca, você perderia a capacidade de fazer novas amizades?  ",
+                texto: "alternativa 1",
+                afirmacao: "afirmação",
             },
             {
-                texto:"Você apertaria o botão se ele garantisse que a corrupção fosse erradicada em todos os níveis governamentais e empresariais",
-                afirmação:"mas, em troca, todas as redes sociais e plataformas de comunicação digital fossem fechadas?  ",
+                texto: "alternativa 2",
+                afirmacao: "afirmação",
             },
         ]
     },
-
     {
-        enunciado: "No Âmbito Tecnológico, você prefere:",
+        enunciado: "No âmbito ambiental, você prefere:",
         alternativas: [
             {
-              texto: "Você apertaria o botão se ele garantisse a eliminação de todas as falhas de segurança cibernética e ataques hackers em todo o mundo",
-              afirmação:"mas, em troca, você teria que aceitar a implementação de uma vigilância constante em todos os dispositivos conectados à internet?",
+                texto: "alternativa 3",
+                afirmacao: "afirmação",
             },
             {
-                texto:"Você apertaria o botão se ele garantisse que todas as inovações tecnológicas futuras fossem voltadas exclusivamente para o bem-estar e a sustentabilidade global",
-                afirmação:"mas, em troca, você teria que abrir mão da possibilidade de desenvolvimento tecnológico individual ou personalização de dispositivos?",
+                texto: "alternativa 4",
+                afirmacao: "afirmação",
             },
         ]
     },
-
-{
-        enunciado: "No Âmbito Ambiental, você prefere:",
+    {
+        enunciado: "No âmbito tecnológico, você prefere:",
         alternativas: [
             {
-              texto: "Você apertaria o botão se ele garantisse a eliminação total da poluição do ar e da água em todo o mundo",
-              afirmação:"mas, em troca, você teria que reduzir drasticamente seu consumo pessoal de eletricidade e transporte?  ",
+                texto: "alternativa 5",
+                afirmacao: "afirmação",
             },
             {
-                texto:"Você apertaria o botão se ele garantisse a restauração completa dos ecossistemas marinhos e a proteção das espécies ameaçadas",
-                afirmação:" mas, em troca, você precisaria viver em uma sociedade com restrições severas à produção de alimentos de origem animal?  ",
+                texto: "alternativa 6",
+                afirmacao: "afirmação",
             },
         ]
     },
-
 ]
 
 let atual = 0;
@@ -55,20 +52,16 @@ let perguntaAtual;
 function mostraPergunta (){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.textContent ="";
     mostraAlternativa();
 }
 
 function mostraAlternativa (){
     for (const pergunta of perguntaAtual.alternativas) {
-        const botaoAlternativa = document.createElement('button');
-        botaoAlternativa.textContent = pergunta;
-        caixaAlternativas.appendChild(botaoAlternativa);
+       const botaoAlternativa = document.createElement('button');
+       botaoAlternativa.textContent = pergunta;
+       caixaAlternativas.appendChild(botaoAlternativa);
     }
-        
-    }
-
 }
-
 
 mostraPergunta();
