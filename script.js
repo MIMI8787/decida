@@ -73,4 +73,9 @@ function respotaSelecionada(){
     mostraPergunta();
 }
 
+function mostraResultado(){
+    caixaPerguntas.textContent = "Em resumo, você escolheu "
+    caixaResultado.textContent = historiaFinal;
+}
+
 mostraPergunta();
