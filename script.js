@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Que todas as pessoas no mundo teriam suas necessidades básicas atendidas (alimentação, saúde, educação), mas, em troca, você perderia a capacidade de fazer novas amizades ",
-                afirmacao: "Você continua sem amigos e com desigualdade social erradicada :D",
+                afirmacao: "Parabéns você continua sem amigos e com desigualdade social erradicada :D",
             },
             {
                 texto: "Que a corrupção fosse erradicada em todos os níveis governamentais e empresariais,mas, em troca, todas as redes sociais e plataformas de comunicação digital fossem fechadas?",
-                afirmacao: " Agora a corrupção acabou e os governos e empresas estão mais juntos, e você está com a saúde mental ótima!  ",
+                afirmacao: "Parabéns  agora a corrupção acabou e os governos e empresas estão mais juntos, e você está com a saúde mental ótima!  ",
             },
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Garantir a eliminação total da poluição do ar e da água em todo o mundo,mas, em troca, você teria que reduzir drasticamente seu consumo pessoal de eletricidade e transporte?",
-                afirmacao: "Agora você consome muito menos a internet e redes de tv e fazer coisas básicas está mais difícil, porém você nunca respirou tão bem na sua vida.  ",
+                afirmacao: "Parabéns agora você consome muito menos a internet e redes de tv e fazer coisas básicas está mais difícil, porém você nunca respirou tão bem na sua vida.  ",
             },
             {
                 texto: "Garantir a restauração completa dos ecossistemas marinhos e a proteção das espécies ameaçadas?,mas, em troca, você precisaria viver em uma sociedade com restrições severas à produção de alimentos de origem animal? ",
-                afirmacao: "Agora você consegue respirar melhor além de conseguir ver espécies de animais vivendo livres, e sua alimentação é saudável e equilibrada, mas talvez você sinta falta de produtos animais. ",
+                afirmacao: "Parabéns agora você consegue respirar melhor além de conseguir ver espécies de animais vivendo livres, e sua alimentação é saudável e equilibrada, mas talvez você sinta falta de produtos animais. ",
             },
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Garantir a eliminação de todas as falhas de segurança cibernética e ataques hackers em todo o mundo,mas, em troca, você teria que aceitar a implementação de uma vigilância constante em todos os dispositivos conectados à internet?",
-                afirmacao: "Os sites estão mais seguros porém, você está desconfortável com uma pessoa vendo suas atividades íntimas ",
+                afirmacao: "Parabéns os sites estão mais seguros porém, você está desconfortável com uma pessoa vendo suas atividades íntimas ",
             },
             {
                 texto: "Garantir que todas as inovações tecnológicas futuras fossem voltadas exclusivamente para o bem-estar e a sustentabilidade global,mas, em troca, você teria que abrir mão da possibilidade de desenvolvimento tecnológico individual ou personalização de dispositivos?",
-                afirmacao: "o mundo está um lugar melhor, porém agora você só utiliza interfaces básicas e padrões dos aplicativos ",
+                afirmacao: "Parabéns o mundo está um lugar melhor, porém agora você só utiliza interfaces básicas e padrões dos aplicativos ",
             },
         ]
     },
