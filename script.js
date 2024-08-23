@@ -48,6 +48,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPergunta (){
     perguntaAtual = perguntas[atual];
@@ -66,7 +67,8 @@ function mostraAlternativa (){
 }
 
 function respotaSelecionada(){
-    const afirmacao = 
+    const afirmacao = pergunta.afirmacao;
+    historiaFinal += afirmacao + " ";
     atual++;
     mostraPergunta();
 }
