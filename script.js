@@ -9,11 +9,11 @@ const perguntas = [
         enunciado: "No âmbito social, você prefere:",
         alternativas: [
             {
-                texto: "Que todas as pessoas no mundo teriam suas necessidades básicas atendidas (alimentação, saúde, educação),mas, em troca, você perderia a capacidade de fazer novas amizades?  ",
+                texto: "Que todas as pessoas no mundo teriam suas necessidades básicas atendidas (alimentação, saúde, educação) ",
                 afirmacao: "mas, em troca, você perderia a capacidade de fazer novas amizades?  ",
             },
             {
-                texto: "Que a corrupção fosse erradicada em todos os níveis governamentais e empresariais,mas, em troca, todas as redes sociais e plataformas de comunicação digital fossem fechadas?",
+                texto: "Que a corrupção fosse erradicada em todos os níveis governamentais e empresariais",
                 afirmacao: "mas, em troca, todas as redes sociais e plataformas de comunicação digital fossem fechadas?  ",
             },
         ]
@@ -22,11 +22,11 @@ const perguntas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativas: [
             {
-                texto: "Garantir a eliminação total da poluição do ar e da água em todo o mundo,mas, em troca, você teria que reduzir drasticamente seu consumo pessoal de eletricidade e transporte?",
+                texto: "Garantir a eliminação total da poluição do ar e da água em todo o mundo",
                 afirmacao: "mas, em troca, você teria que reduzir drasticamente seu consumo pessoal de eletricidade e transporte?",
             },
             {
-                texto: "Garantir a restauração completa dos ecossistemas marinhos e a proteção das espécies ameaçadas,mas, em troca, você precisaria viver em uma sociedade com restrições severas à produção de alimentos de origem animal? ",
+                texto: "Garantir a restauração completa dos ecossistemas marinhos e a proteção das espécies ameaçadas? ",
                 afirmacao: "mas, em troca, você precisaria viver em uma sociedade com restrições severas à produção de alimentos de origem animal?  ",
             },
         ]
@@ -35,11 +35,11 @@ const perguntas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativas: [
             {
-                texto: "Garantir a eliminação de todas as falhas de segurança cibernética e ataques hackers em todo o mundo,mas, em troca, você teria que aceitar a implementação de uma vigilância constante em todos os dispositivos conectados à internet?",
+                texto: "Garantir a eliminação de todas as falhas de segurança cibernética e ataques hackers em todo o mundo",
                 afirmacao: "mas, em troca, você teria que aceitar a implementação de uma vigilância constante em todos os dispositivos conectados à internet?",
             },
             {
-                texto: "Garantir que todas as inovações tecnológicas futuras fossem voltadas exclusivamente para o bem-estar e a sustentabilidade global,mas, em troca, você teria que abrir mão da possibilidade de desenvolvimento tecnológico individual ou personalização de dispositivos?",
+                texto: "Garantir que todas as inovações tecnológicas futuras fossem voltadas exclusivamente para o bem-estar e a sustentabilidade global,",
                 afirmacao: "mas, em troca, você teria que abrir mão da possibilidade de desenvolvimento tecnológico individual ou personalização de dispositivos?",
             },
         ]
