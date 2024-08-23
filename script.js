@@ -65,4 +65,10 @@ function mostraAlternativa (){
     }
 }
 
+function respotaSelecionada(){
+    const afirmacao = 
+    atual++;
+    mostraPergunta();
+}
+
 mostraPergunta();
