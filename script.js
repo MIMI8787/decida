@@ -9,8 +9,8 @@ const perguntas = [
         enunciado: "No âmbito social, você prefere:",
         alternativas: [
             {
-                texto: "Você apertaria o botão se ele garantisse que todas as pessoas no mundo teriam suas necessidades básicas atendidas (alimentação, saúde, educação)",mas, em troca, você perderia a capacidade de fazer novas amizades?  
-                afirmacao: "afirmação1  ",
+                texto: "Você apertaria o botão se ele garantisse que todas as pessoas no mundo teriam suas necessidades básicas atendidas (alimentação, saúde, educação)",
+                afirmacao: "mas, em troca, você perderia a capacidade de fazer novas amizades?  ",
             },
             {
                 texto: "Você apertaria o botão se ele garantisse que a corrupção fosse erradicada em todos os níveis governamentais e empresariais",
