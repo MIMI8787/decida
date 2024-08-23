@@ -39,7 +39,7 @@ const perguntas = [
                 afirmacao: "mas, em troca, você teria que aceitar a implementação de uma vigilância constante em todos os dispositivos conectados à internet?",
             },
             {
-                texto: "Garantir que todas as inovações tecnológicas futuras fossem voltadas exclusivamente para o bem-estar e a sustentabilidade global,",
+                texto: "Garantir que todas as inovações tecnológicas futuras fossem voltadas exclusivamente para o bem-estar e a sustentabilidade global",
                 afirmacao: "mas, em troca, você teria que abrir mão da possibilidade de desenvolvimento tecnológico individual ou personalização de dispositivos?",
             },
         ]
