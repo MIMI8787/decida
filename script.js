@@ -67,7 +67,7 @@ function mostraAlternativa (){
 }
 
 function respotaSelecionada(){
-    const afirmacao = pergunta.afirmacao;
+    const afirmacao = perguntas.afirmacao;
     historiaFinal += afirmacao + " ";
     atual++;
     mostraPergunta();
