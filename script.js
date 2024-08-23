@@ -26,7 +26,7 @@ const perguntas = [
                 afirmacao: "Parabéns agora você consome muito menos a internet e redes de tv e fazer coisas básicas está mais difícil, porém você nunca respirou tão bem na sua vida.  ",
             },
             {
-                texto: "Garantir a restauração completa dos ecossistemas marinhos e a proteção das espécies ameaçadas?,mas, em troca, você precisaria viver em uma sociedade com restrições severas à produção de alimentos de origem animal? ",
+                texto: "Garantir a restauração completa dos ecossistemas marinhos e a proteção das espécies ameaçadas?mas, em troca, você precisaria viver em uma sociedade com restrições severas à produção de alimentos de origem animal? ",
                 afirmacao: "Parabéns agora você consegue respirar melhor além de conseguir ver espécies de animais vivendo livres, e sua alimentação é saudável e equilibrada, mas talvez você sinta falta de produtos animais. ",
             },
         ]
