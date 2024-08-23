@@ -70,8 +70,8 @@ function mostraAlternativa (){
     }
 }
 
-function respotaSelecionada(){
-    const afirmacao = perguntas.afirmacao;
+function respotaSelecionada(pergunta){
+    const afirmacao = pergunta.afirmacao;
     historiaFinal += afirmacao + " ";
     atual++;
     mostraPergunta();
